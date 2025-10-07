@@ -1,0 +1,22 @@
+<suite name="ProcureZen_Test_Suite">
+	<test name="Procurezen">
+		<classes>
+		 	<class name="tests.LoginTest" />  
+			<class name="tests.Account_Creation"/>
+			<class name="tests.Reg_Test"/>
+			
+	 		 <class name="tests.MR_Test"/>  
+             <class name="tests.PR_Test"/>  
+             <class name="tests.RFQ_Test"/>  
+             <class name="tests.PO_Test"/>  
+             <class name="tests.PreQualify_Test"/>
+             <class name="tests.Directory_Test"/>
+             <class name="tests.Inventory_Test"/>
+             <class name="tests.TA_NewProject_Test"/>
+             <class name="tests.AdminTest"/>  
+   
+           
+
+		</classes>	
+	</test>
+</suite>

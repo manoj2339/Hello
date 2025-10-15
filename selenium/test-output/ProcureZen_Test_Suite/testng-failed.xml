@@ -3,6 +3,46 @@
 <suite name="Failed suite [ProcureZen_Test_Suite]">
   <test thread-count="5" name="Procurezen(failed)">
     <classes>
+      <class name="tests.TA_NewProject_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="transitagency_Project"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.TA_NewProject_Test -->
+      <class name="tests.Account_Creation">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+          <include name="supplier_user_creation"/>
+        </methods>
+      </class> <!-- tests.Account_Creation -->
+      <class name="tests.Inventory_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="create_inventory_items"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.Inventory_Test -->
+      <class name="tests.PreQualify_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Supplier_PreQualification"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.PreQualify_Test -->
       <class name="tests.PO_Test">
         <methods>
           <include name="setup"/>
@@ -13,6 +53,56 @@
           <include name="tearDownReport"/>
         </methods>
       </class> <!-- tests.PO_Test -->
+      <class name="tests.PR_Test">
+        <methods>
+          <include name="create_new_PR"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.PR_Test -->
+      <class name="tests.Directory_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="Supplier_Directory"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.Directory_Test -->
+      <class name="tests.Reg_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="supplier_registration"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.Reg_Test -->
+      <class name="tests.RFQ_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="create_new_RFQ"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.RFQ_Test -->
+      <class name="tests.MR_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="create_new_MR"/>
+          <include name="setupReport"/>
+          <include name="quitBrowser"/>
+          <include name="tearDownReport"/>
+        </methods>
+      </class> <!-- tests.MR_Test -->
     </classes>
   </test> <!-- Procurezen(failed) -->
 </suite> <!-- Failed suite [ProcureZen_Test_Suite] -->

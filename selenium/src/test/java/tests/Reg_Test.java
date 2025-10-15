@@ -38,7 +38,7 @@ public class Reg_Test extends BaseTest {
 		  
 		
 		Thread.sleep(2000);
-		Lo.Enterusername("BAFO");
+		Lo.Enterusername("A&AT");
 		Lo.Enterpassword("Krya@1234");
 		
 		

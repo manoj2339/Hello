@@ -87,7 +87,7 @@ public class Inventory_Test extends BaseTest {
 //	  	INV.clickCreateNewItem();
 	  	 
 	   
-        INV.enterCode("1733");
+        INV.enterCode("023");
         INV.enterShortName("Goods");
         INV.enterDescription("Sample description");    // You can replace with test data or add to Excel
         INV.selectItemType();

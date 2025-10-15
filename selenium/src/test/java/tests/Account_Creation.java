@@ -65,11 +65,11 @@ public class Account_Creation extends BaseTest {
 		UC.Click_Classification();
 		Thread.sleep(1000);  
 		UC.Classification_Dropdown();
-		UC.Company_Name("BAFO");  
+		UC.Company_Name("Swiggy");  
 		Thread.sleep(1000);
 		UC.Enter_Native_name("Not applicable");
-		UC.Enter_License("PDSwDSuASSDS4");
-		UC.Enter_Tax("TAajhsDFSDsASAS71");
+		UC.Enter_License("PSS3234as4");
+		UC.Enter_Tax("TAajhsDFSD11");
 		UC.Enter_Site_code("001");
 		UC.Enter_Site_Name("Chennai");
 		Thread.sleep(1000);
@@ -116,7 +116,7 @@ public class Account_Creation extends BaseTest {
 //      UC.Enter_landline("27453964");
 		Thread.sleep(1000);
 		
-		UC.Enter_username("BAFO"); 
+		UC.Enter_username("Swiggy"); 
 		UC.Enter_password("Krya@1234");
 		UC.Enter_Confirm_password("Krya@1234");
 		Thread.sleep(500);
